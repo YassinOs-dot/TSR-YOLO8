@@ -1,0 +1,4 @@
+{
+  "yolo_model_path": "./models/yolo/best.pt",
+  "cnn_model_path": "./models/cnn/saved_model"
+}
