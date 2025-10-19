@@ -16,8 +16,8 @@ class ColabTrafficSignRecognizer:
         print("🚀 Initializing Traffic Sign Recognition for Colab...")
         
         # Load models (update paths for Colab)
-        self.yolo_model = YOLO('/content/models/yolo/best.pt')
-        self.cnn_model = tf.saved_model.load('/content/models/cnn/saved_model')
+        self.yolo_model = YOLO('/content/TSR-YOLO8/models/yolo/best.pt')
+        self.cnn_model = tf.saved_model.load('/content/TSR-YOLO8/models/cnn/saved_model')
         
         print("✅ Models loaded successfully!")
     
